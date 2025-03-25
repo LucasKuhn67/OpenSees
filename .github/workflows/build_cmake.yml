@@ -38,7 +38,7 @@ jobs:
       - name: Python 3.11
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12.7"
       - name: Conan 1.x
         run: pip install conan<2.0
       - name: MUMPS
